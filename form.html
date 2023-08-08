@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="bottom-area">
+    <div class="container">
+      <section class="reservation">
+        <h4 class="mini_title">Business Card</h4>
+        <h2 class="title">Fill this form to make your card</h2>
+
+        <form id="form">
+          <label for="">Your Name</label>
+          <input required name="name" type="text" id="username" placeholder="Name">
+
+          <label for="">Your Email</label>
+          <input required type="email" name="email" id="email" placeholder="Email">
+
+          <label for="">Your Number</label>
+          <input required type="number" name="phone" id="number" placeholder="Number">
+
+          <label for="">Your Profession</label>
+          <input required type="text" name="profession" id="profession" placeholder="Profession">
+
+          <label for="">Location</label>
+          <input required type="text" name="location" id="location" value="Douala" placeholder="Location">
+
+
+          <button id="card">Generate</button>
+          <button id="clear">Clear</button>
+
+
+          <!--  <input id="generate" type="submit" class="btn-submit" value="Generate">
+          <input id="clear" type="submit" class="btn-clear" value="Clear"> -->
+        </form>
+      </section>
+    </div>
+  </div>
+  <script src="./form.js"></script>
+</body>
+
+</html>

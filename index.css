@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    height:00px;
+    flex: 1;   
+  }
+
+  img{
+    background-size: auto;
+  }
+  
+body{
+    padding: 50px;
+    margin: 50px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #43e97b 0%, #36f9d7 100%)
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a, a:visited,a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    width: 75%;
+    max-width: 600px;
+    background-color: #313131;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contain{
+    
+    width: 600px;
+    height: 328px;
+    background-color: #313131;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cart{
+    padding: 30px 60px;
+    color: white;
+}
+
+.tmg{
+    height: 300px;
+    width: 350px;
+    
+}
+
+
+.card{
+    padding: 30px 60px;
+    color: white;
+}
+
+h1{
+    margin-bottom: 60px;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-item:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+ion-icon{
+    margin-right: 15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+   
+}
+
+button{
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: 0;
+    background-color: #274bae;
+    padding: 5px 60px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+
+
